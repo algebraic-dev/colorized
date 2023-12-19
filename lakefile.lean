@@ -8,7 +8,7 @@ package «Colorized» where
 lean_lib «Colorized» where
   -- add library configuration options here
 
-lean_exe «tests» where
+lean_exe «testes» where
   root := `Tests
   supportInterpreter := true
 
