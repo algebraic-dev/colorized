@@ -8,6 +8,12 @@ package «Colorized» where
 lean_lib «Colorized» where
   -- add library configuration options here
 
+lean_exe «tests» where
+  root := `Tests
+  supportInterpreter := true
+
 lean_exe «example» where
   root := `Example
   supportInterpreter := true
+
+require Specs from git "https://github.com/axiomed/Specs.lean.git"
