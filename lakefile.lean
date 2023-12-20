@@ -11,5 +11,3 @@ lean_lib «Colorized» where
 lean_exe «example» where
   root := `Example
   supportInterpreter := true
-
-require Specs from git "https://github.com/axiomed/Specs.lean.git"
