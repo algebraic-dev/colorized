@@ -1,4 +1,5 @@
-import «Colorized».Console.Colorized
+import «Colorized»
+open Colorized
 
 def main : IO Unit := do
   -- | Simple style
